@@ -43,8 +43,7 @@ Choose one of the following methods to obtain the Heatmap Generator repository:
    ```bash
    git clone https://github.com/edsml-jjl122/tmw_heatmap.git
    ```
-
-
+https://github.com/user-attachments/assets/47677b3d-b082-4e81-997c-2ac123b70671
 
 #### Option B: Download the Repository as a ZIP File
 
@@ -62,11 +61,7 @@ To install the package, navigate to the directory where the repository is locate
 cd path/to/tmw_heatmap/dist
 \`\`\`
 
-![Navigati
 
-https://github.com/user-attachments/assets/47677b3d-b082-4e81-997c-2ac123b70671
-
-ng to Dist Folder](path/to/navigate_dist.gif)
 
 Then, run one of the following commands based on the file type you wish to install:
 
