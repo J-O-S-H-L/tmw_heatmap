@@ -137,11 +137,12 @@ class HeatmapGenerator:
             ax=axes,
             orientation="vertical",
             fraction=0.025,
+            ticks=[],
             pad=0.02,
             aspect=10,
         )
-        cbar.ax.tick_params(labelsize=8)  # Adjust the size of the ticks
 
+        cbar.outline.set_visible(False)  # Hide the border outline
         plt.gcf().set_facecolor("#2c2c2d")
         plt.savefig(output, bbox_inches="tight")
 
