@@ -3,4 +3,3 @@ build/
 *egg-info/
 poetry.lock
 pyproject.toml
-*png
