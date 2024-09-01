@@ -87,16 +87,18 @@ python -m immersion_heatmap --input your_data_file.csv --output your_output_file
 - `--cmap`: **(Optional)** The colormap to use (e.g., `Greens`, `Reds`). Defaults to a standard colormap if not specified. Refer to [matplotlib's colormap documentation](https://matplotlib.org/stable/users/explain/colors/colormaps.html) for more options.
 - `--media`: **(Optional)** Filter by media type (e.g., `ANIME, VN, BOOK`). Defaults to all types.
 
-### Example
+### Example 1
 
 To generate a heatmap from `username_logs.csv` and save it as `heatmap.png` with the `Blues` colormap:
 
 ```bash
 python -m immersion_heatmap --input username_logs.csv --output heatmap --cmap Blues
 ```
-
+### Example 2
 If you save your TMW logs to the immersion_heatmap/data folder, the program will automatically use that data.
 _warning_: this method only works if there is a single file in the data folder.
+
+### Example 3
 
 For a media-specific heatmap:
 
