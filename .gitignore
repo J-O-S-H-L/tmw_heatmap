@@ -3,3 +3,4 @@ build/
 *egg-info/
 poetry.lock
 pyproject.toml
+n0luck13_logs.csv
