@@ -68,10 +68,10 @@ python -m immersion_heatmap --output your_output_file.png
 To generate a heatmap from a dataset called `username_logs.csv` and save the output as `heatmap.png`, you can run:
 
 ```bash
-python -m immersion_heatmap --input username_logs.csv --output heatmap --cmap viridis
+python -m immersion_heatmap --input username_logs.csv --output heatmap --cmap Blues
 ```
 
-This command uses the `viridis` colormap. PNG is the default save type so the file exstension can be omitted. An example image might look something like:
+This command uses the `Blues` colormap. PNG is the default save type so the file exstension can be omitted. An example image might look something like:
 
 ![Example Heatmap](examples/blues_example.png)
 
