@@ -115,7 +115,7 @@ python -m immersion_heatmap --output listening_example --media listening
 
 ## Contributing
 
-We welcome contributions! Please fork the repository and create a pull request with your changes. Ensure your code adheres to the existing style and passes all tests.
+It would be great if someone could take this and add it to TMW logging bot. I gave it the ole college try but couldn't figure it out.
 
 ## Contact Information
 
