@@ -4,3 +4,4 @@ build/
 poetry.lock
 pyproject.toml
 n0luck13_logs.csv
+immersion_heatmap/__pycache__/heatmap.cpython-312.pyc
