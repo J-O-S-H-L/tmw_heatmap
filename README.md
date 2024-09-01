@@ -82,7 +82,7 @@ python -m immersion_heatmap --input your_data_file.csv --output your_output_file
 
 ### Command-line Options
 
-- `--input`: **(Optional if CSV is in `immersion_stats/data`)** The path to your CSV file containing the data.
+- `--input`: **(Optional if CSV is in `immersion_heatmap/data`)** The path to your CSV file containing the data.
 - `--output`: **(Required)** The path where you want to save the heatmap image.
 - `--cmap`: **(Optional)** The colormap to use (e.g., `Greens`, `Reds`). Defaults to a standard colormap if not specified. Refer to [matplotlib's colormap documentation](https://matplotlib.org/stable/users/explain/colors/colormaps.html) for more options.
 - `--media`: **(Optional)** Filter by media type (e.g., `ANIME, VN, BOOK`). Defaults to all types.
