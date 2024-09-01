@@ -1,87 +1,131 @@
+
 # Heatmap Generator
 
-Create a heatmap from your TMW immersion logs
+Create a heatmap from your TMW immersion logs.
+
+## Introduction
+
+The **Heatmap Generator** is a Python tool designed to create visual representations of your immersion data from TMW immersion logs. This tool provides a simple and effective way to generate heatmaps from your data.
+
+![Introduction to Heatmap Generator](path/to/intro.gif)
 
 ## Features
 
-- Create a heatmap of your immersion data
-- Chose to view all immersion media types or filter by a  media type.
+- Generate heatmaps from immersion data logs.
+- Filter heatmaps by specific media types (e.g., anime, books, listening).
+- Customize the appearance of heatmaps using different colormaps.
 
+## Prerequisites
 
-## Requirements
-Some basic familiarity with how your operating system's terminal/shell works. The latest version of the Python programming language also needs to be installed.
+Before you begin, ensure you have the following installed on your system:
+
+- **Python**: Version 3.6 or higher.
+- **Git**: Required if you prefer to clone the repository rather than download it directly.
+
+### Installing Python and Git
+
+1. Download Python from the [official website](https://www.python.org/downloads/).
+2. Download Git from the [official website](https://git-scm.com/).
 
 ## Installation
 
-To install the package, you can use either the `.whl` file or the `.tar.gz` file provided in the repository. First, open your OS terminal (bash, windows powershell, whatever BS apple uses) and navigate to the `dist` folder
-```bash
-cd dist
-```
- Choose one of the methods below:
+Follow these steps to set up the Heatmap Generator on your system.
 
-### Using the `.whl` file:
+### Step 1: Download the Repository
 
-```bash
+Choose one of the following methods to obtain the Heatmap Generator repository:
+
+#### Option A: Clone the Repository Using Git
+
+1. Open your terminal.
+2. Run the following command:
+
+   \`\`\`bash
+   git clone https://github.com/edsml-jjl122/tmw_heatmap.git
+   \`\`\`
+
+   ![Cloning Repository with Git](path/to/clone_repo.gif)
+
+#### Option B: Download the Repository as a ZIP File
+
+1. Visit the repository on GitHub.
+2. Click the green "Code" button, then select "Download ZIP".
+3. Extract the ZIP file to your desired location.
+
+![Downloading and Extracting ZIP](path/to/download_zip.gif)
+
+### Step 2: Install the Package
+
+To install the package, navigate to the directory where the repository is located, then to the `dist` folder:
+
+\`\`\`bash
+cd path/to/tmw_heatmap/dist
+\`\`\`
+
+![Navigating to Dist Folder](path/to/navigate_dist.gif)
+
+Then, run one of the following commands based on the file type you wish to install:
+
+#### Install Using the `.whl` File:
+
+\`\`\`bash
 pip install immersion_heatmap-0.1.0-py3-none-any.whl
-```
+\`\`\`
 
-### Using the `.tar.gz` file:
-
-```bash
-pip install immersion_heatmap-0.1.0.tar.gz
-```
-
-Make sure to navigate to the directory where these files are located before running the installation commands or execute them using the file path.
+![Installing Package Using Wheel](path/to/install_whl.gif)
 
 ## Usage
 
-After installing the package, you can use the script from the terminal to generate heatmaps. Below are the instructions on how to run the script with different options:
+After installation, you can use the script to generate heatmaps. Here’s how to run the script.
 
 ### Basic Usage
 
-To generate a heatmap, run the script with the following command:
+To generate a heatmap, use the following command structure:
 
-```bash
+\`\`\`bash
 python -m immersion_heatmap --input your_data_file.csv --output your_output_file.png
-```
+\`\`\`
 
-Replace `your_data_file.csv` with the path to your dataset and `your_output_file.png` with the desired output filename.
-
-### Automatic Data Reading
-
-You can download your immersion logs and place them in `immersion_stats/data` folder. The script will automatically read data from this file, and you will not need to specify the `--input` parameter. Just specify the `--output` parameter to save the heatmap:
-
-```bash
-python -m immersion_heatmap --output your_output_file.png
-```
+![Running Basic Command](path/to/basic_usage.gif)
 
 ### Command-line Options
 
-- `--input`: **(Required if no CSV file is in `immersion_stats/data`)** The path to the CSV file containing the data for which you want to generate a heatmap.
-- `--output`: **(Required)** The path where you want to save the generated heatmap image.
-- `--cmap`: **(Optional)** The name of the colormap to use (e.g., `Greens`, `Reds`). If not specified, a default colormap will be used. You can use any heatmap available to [matplotlib](https://matplotlib.org/stable/users/explain/colors/colormaps.html) although I wouldn't recommend a diverging one. The 'Sequential' maps are revered to more closely resemble anki's heatmap addon.
-- `--media`: **(Optional)** What media type to show on the heatmap. The default is to show all media types, but you can chose from any of the logging types accepted by the immersion bot ```ANIME, VN, BOOK, MANGA, READTIME, LISTENING, READING```
-
+- `--input`: **(Optional if CSV is in `immersion_stats/data`)** The path to your CSV file containing the data.
+- `--output`: **(Required)** The path where you want to save the heatmap image.
+- `--cmap`: **(Optional)** The colormap to use (e.g., `Greens`, `Reds`). Defaults to a standard colormap if not specified. Refer to [matplotlib's colormap documentation](https://matplotlib.org/stable/users/explain/colors/colormaps.html) for more options.
+- `--media`: **(Optional)** Filter by media type (e.g., `ANIME, VN, BOOK`). Defaults to all types.
 
 ### Example
 
-To generate a heatmap from a dataset called `username_logs.csv` and save the output as `heatmap.png`, you can run:
+To generate a heatmap from `username_logs.csv` and save it as `heatmap.png` with the `Blues` colormap:
 
-```bash
+\`\`\`bash
 python -m immersion_heatmap --input username_logs.csv --output heatmap --cmap Blues
-```
+\`\`\`
 
-This command uses the `Blues` colormap. PNG is the default save type so the file exstension can be omitted. An example image might look something like:
+![Example Command Execution](path/to/example_command.gif)
 
-![Example Heatmap](examples/blues_example.png)
+For a media-specific heatmap:
 
-An example of filtering by listening logs might be
-```bash
-python -m immersion_stats --output listening_example --media listening
-```
-![Another Example](examples/listening_example.png)
-You can use this as a reference to see how your own heatmaps might look like.
+\`\`\`bash
+python -m immersion_heatmap --output listening_example --media listening
+\`\`\`
 
+![Filtering by Media Type](path/to/filter_media.gif)
+
+## Troubleshooting
+
+If you encounter common issues, here’s how to resolve them:
+
+![Fixing Command Not Found Error](path/to/command_not_found.gif)
+
+## Contributing
+
+We welcome contributions! Please fork the repository and create a pull request with your changes. Ensure your code adheres to the existing style and passes all tests.
+
+## Contact Information
+
+If you encounter any issues or have questions, please feel free to open an issue on the GitHub repository or contact us at [your-email@example.com].
 
 ## License
 
