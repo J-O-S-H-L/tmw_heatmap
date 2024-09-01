@@ -40,9 +40,9 @@ Choose one of the following methods to obtain the Heatmap Generator repository:
 1. Open your terminal.
 2. Run the following command:
 
-   \`\`\`bash
+   ```bash
    git clone https://github.com/edsml-jjl122/tmw_heatmap.git
-   \`\`\`
+   ```
 
    ![Cloning Repository with Git](path/to/clone_repo.gif)
 
