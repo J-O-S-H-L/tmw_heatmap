@@ -9,4 +9,8 @@ dependencies:
   - seaborn
   - click
   - cmasher
+  - setuptools
+  - pip
+  - pip:
+    - -e .
 
