@@ -51,27 +51,22 @@ https://github.com/user-attachments/assets/47677b3d-b082-4e81-997c-2ac123b70671
 2. Click the green "Code" button, then select "Download ZIP".
 3. Extract the ZIP file to your desired location.
 
-![Downloading and Extracting ZIP](path/to/download_zip.gif)
 
 ### Step 2: Install the Package
 
 To install the package, navigate to the directory where the repository is located, then to the `dist` folder:
 
-\`\`\`bash
+```bash
 cd path/to/tmw_heatmap/dist
-\`\`\`
-
-
+```
 
 Then, run one of the following commands based on the file type you wish to install:
 
 #### Install Using the `.whl` File:
 
-\`\`\`bash
+```bash
 pip install immersion_heatmap-0.1.0-py3-none-any.whl
-\`\`\`
-
-![Installing Package Using Wheel](path/to/install_whl.gif)
+```
 
 ## Usage
 
@@ -81,11 +76,9 @@ After installation, you can use the script to generate heatmaps. Here’s how to
 
 To generate a heatmap, use the following command structure:
 
-\`\`\`bash
+```bash
 python -m immersion_heatmap --input your_data_file.csv --output your_output_file.png
-\`\`\`
-
-![Running Basic Command](path/to/basic_usage.gif)
+```
 
 ### Command-line Options
 
@@ -98,25 +91,18 @@ python -m immersion_heatmap --input your_data_file.csv --output your_output_file
 
 To generate a heatmap from `username_logs.csv` and save it as `heatmap.png` with the `Blues` colormap:
 
-\`\`\`bash
+```bash
 python -m immersion_heatmap --input username_logs.csv --output heatmap --cmap Blues
-\`\`\`
+```
 
-![Example Command Execution](path/to/example_command.gif)
+If you save your TMW logs to the immersion_heatmap/data folder, the program will automatically use that data.
+_warning_: this method only works if there is a single file in the data folder.
 
 For a media-specific heatmap:
 
-\`\`\`bash
+```bash
 python -m immersion_heatmap --output listening_example --media listening
-\`\`\`
-
-![Filtering by Media Type](path/to/filter_media.gif)
-
-## Troubleshooting
-
-If you encounter common issues, here’s how to resolve them:
-
-![Fixing Command Not Found Error](path/to/command_not_found.gif)
+```
 
 ## Contributing
 
@@ -124,7 +110,7 @@ We welcome contributions! Please fork the repository and create a pull request w
 
 ## Contact Information
 
-If you encounter any issues or have questions, please feel free to open an issue on the GitHub repository or contact us at [your-email@example.com].
+You you can any issues, raise them here or PM me on discord @ n0luck13
 
 ## License
 
