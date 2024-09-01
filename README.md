@@ -13,7 +13,7 @@ Some basic familiarity with how your operating system's terminal/shell works. Th
 
 ## Installation
 
-To install the package, you can use either the `.whl` file or the `.tar.gz` file provided in the repository. First navigate to the `dist` folder
+To install the package, you can use either the `.whl` file or the `.tar.gz` file provided in the repository. First, open your OS terminal (bash, windows powershell, whatever BS apple uses) and navigate to the `dist` folder
 ```bash
 cd dist
 ```
