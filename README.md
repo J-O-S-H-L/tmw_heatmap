@@ -73,13 +73,13 @@ python -m immersion_heatmap --input username_logs.csv --output heatmap --cmap vi
 
 This command uses the `viridis` colormap. PNG is the default save type so the file exstension can be omitted. An example image might look something like:
 
-![Example Heatmap](examples/test.png)
+![Example Heatmap](examples/blues_example.png)
 
-An example of filter by visual novel logs might be
+An example of filtering by listening logs might be
 ```bash
 python -m immersion_stats --output listening_example --media listening
 ```
-
+![Another Example](examples/listening_example.png)
 You can use this as a reference to see how your own heatmaps might look like.
 
 
