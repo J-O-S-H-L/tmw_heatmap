@@ -9,9 +9,11 @@ Create a heatmap from your TMW immersion logs
 
 
 ## Requirements
-Some basic familiarity with how your operating system's terminal/shell works. The latest version of the Python programming language also needs to be installed.
+Some basic familiarity with how your operating system's terminal/shell works. The latest version of the Python programming language also needs to be installed. You'll also need git or be able to download this repo directly.
 
 ## Installation
+
+Begin by navigating to a folder where you want this script to live. Could be desktop, home, documents, ect... and either ```bash git pull https://github.com/edsml-jjl122/tmw_heatmap``` if you have git installed or download and move the package folder directly.
 
 To install the package, you can use either the `.whl` file or the `.tar.gz` file provided in the repository. First, open your OS terminal (bash, windows powershell, whatever BS apple uses) and navigate to the `dist` folder
 ```bash
