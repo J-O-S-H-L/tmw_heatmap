@@ -97,6 +97,11 @@ python -m immersion_heatmap --input username_logs.csv --output heatmap --cmap Bl
 ### Example 2
 If you save your TMW logs to the immersion_heatmap/data folder, the program will automatically use that data.
 _warning_: this method only works if there is a single file in the data folder.
+https://github.com/user-attachments/assets/cfd4d006-8327-48ed-8b73-28226c60ca73
+
+```bash
+python -m immersion_heatmap --output examples/data_folder
+```
 
 ### Example 3
 
@@ -105,6 +110,7 @@ For a media-specific heatmap:
 ```bash
 python -m immersion_heatmap --output listening_example --media listening
 ```
+![listening_example](examples/listening_example.png)
 
 ## Contributing
 
