@@ -173,7 +173,7 @@ class HeatmapGenerator:
     "-m",
     "media_type",
     default="ALL",
-    help="Media type to include in the heatmap. Choose from LISTENING, READING, ANIME, READTIME, VN, MANGA, PAGE. Default is ALL.",
+    help="Media type to include in the heatmap. Choose from LISTENING, READING, ANIME, READTIME, VN, MANGA, PAGE. Default is ALL.", # noqa
 )
 def run(input_path, output_path, selected_cmap, media_type):
     """
