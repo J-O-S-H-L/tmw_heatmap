@@ -43,8 +43,8 @@ Choose one of the following methods to obtain the Heatmap Generator repository:
    ```bash
    git clone https://github.com/edsml-jjl122/tmw_heatmap.git
    ```
+/home/jjl122/personal_projects/tmw_heatmap/examples/clone.mp4
 
-   ![Cloning Repository with Git](examples/clone.mp4)
 
 #### Option B: Download the Repository as a ZIP File
 
