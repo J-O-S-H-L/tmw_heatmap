@@ -9,4 +9,7 @@ dependencies:
   - seaborn
   - click
   - cmasher
+  - pip
+  - pip:
+    - -e .
 
