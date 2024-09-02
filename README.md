@@ -16,6 +16,10 @@ The **Heatmap Generator** is a Python tool designed to create visual representat
 - Filter heatmaps by specific media types (e.g., anime, books, listening).
 - Customize the appearance of heatmaps using different colormaps.
 
+## Coming Soon
+
+At the moment there is no option to chose single or multi-year maps. That decision is make when you export your logs from TMW server. It would be nice to have a decision point here as well. Some people might want to generate different maps without spamming the immersion logs channel with export requests.
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed on your system:
