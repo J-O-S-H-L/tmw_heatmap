@@ -103,6 +103,18 @@ python -m immersion_heatmap --input username_logs.csv --output heatmap --cmap Bl
 If you save your TMW logs to the immersion_heatmap/data folder, the program will automatically use that data.
 _warning_: this method only works if there is a single file in the data folder.
 
+If your directory looks like this, it should work:
+```
+example/
+└── immersion_heatmap/
+    ├── __init__.py
+    ├── __main__.py
+    ├── heatmap.py
+    └── data/
+        └── your_tmw_logs.csv
+```
+A little video example:
+
 https://github.com/user-attachments/assets/cfd4d006-8327-48ed-8b73-28226c60ca73
 
 ```bash
