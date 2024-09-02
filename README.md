@@ -136,7 +136,7 @@ It would be great if someone could take this and add it to TMW logging bot. I ga
 
 ## Contact Information
 
-You you can any issues, raise them here or PM me on discord @ n0luck13
+If you have any issues, raise them here or ping me on the server @ n0luck13 (スカイフィッシュ server alias at the moment)
 
 ## License
 
