@@ -1,13 +1,14 @@
 
 # Heatmap Generator
 
+![Introduction to Heatmap Generator](examples/intro.png)
+
 Create a heatmap from your TMW immersion logs.
 
 ## Introduction
 
-The **Heatmap Generator** is a Python tool designed to create visual representations of your immersion data from TMW immersion logs. This tool provides a simple and effective way to generate heatmaps from your data.
+The **Heatmap Generator** is a Python tool designed to create visual representations of your immersion data from TMW immersion logs. Styling is based off of the anki addon [Review Heatmap](https://ankiweb.net/shared/info/1771074083) by Glutanimate
 
-![Introduction to Heatmap Generator](examples/intro.png)
 
 ## Features
 
@@ -116,6 +117,8 @@ example/
 A little video example:
 
 https://github.com/user-attachments/assets/cfd4d006-8327-48ed-8b73-28226c60ca73
+
+The terminal call in the video example is:
 
 ```bash
 python -m immersion_heatmap --output examples/data_folder
