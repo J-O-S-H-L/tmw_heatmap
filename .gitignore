@@ -3,7 +3,6 @@ build/
 *egg-info/
 poetry.lock
 pyproject.toml
-n0luck13_logs.csv
+*.csv
 immersion_heatmap/__pycache__/heatmap.cpython-312.pyc
-fake_data.csv
 fake_data.py
