@@ -67,6 +67,11 @@ Then, run one of the following commands based on the file type you wish to insta
 ```bash
 pip install immersion_heatmap-0.1.0-py3-none-any.whl
 ```
+#### Install Using the `.tar.gz` File:
+
+```bash
+pip install immersion_heatmap-0.1.0.tar.gz
+```
 
 ## Usage
 
