@@ -118,6 +118,8 @@ A little video example:
 
 https://github.com/user-attachments/assets/cfd4d006-8327-48ed-8b73-28226c60ca73
 
+The terminal call in the video example is:
+
 ```bash
 python -m immersion_heatmap --output examples/data_folder
 ```
