@@ -57,7 +57,7 @@ https://github.com/user-attachments/assets/47677b3d-b082-4e81-997c-2ac123b70671
 To install the package, navigate to the directory where the repository is located, then to the `dist` folder:
 
 ```bash
-cd path/to/tmw_heatmap/dist
+cd example/tmw_heatmap/dist
 ```
 
 Then, run one of the following commands based on the file type you wish to install:
